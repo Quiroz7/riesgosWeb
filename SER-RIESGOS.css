@@ -1,5 +1,6 @@
  .u-section-1 {
-  min-height: 1200px;
+  min-height: fit-content !important;
+  margin-bottom: 3rem;
 }
 
 .u-section-1 .u-image-1 {
@@ -18,7 +19,7 @@
 .cambioimg{
   width: 100% !important;
   height: max-content !important;
-  max-width: 1500px !important;
+  /* max-width: 1500px !important; */
 }
 
 @media (max-width: 1199px) {
@@ -87,9 +88,9 @@
   min-height: 309px ;
 }
 
-.u-section-2 .u-list-1 {
+/* .u-section-2 .u-list-1 {
   margin: -450px -13px 60px auto; 
-}
+} */
 
 .u-section-2 .u-repeater-1 {
   grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
